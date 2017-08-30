@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <vector>
 using namespace std;
 
-fstream LoadFile(string filename); //returns filehandle for given filename
+int* LoadFile(); //returns filehandle for given filename
